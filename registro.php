@@ -70,7 +70,7 @@
                         <li><i class="fa-brands fa-google"></i></li>
                     </a>
                 </ul>
-                <a href="http://localhost/login/index.php" target="_blank">¿Ya tienes cuentra? Accede</a>
+                <a href="index.html" target="_blank">¿Ya tienes cuentra? Accede</a>
             </div>
         </form>
     </div>
