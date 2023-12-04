@@ -1,0 +1,184 @@
+.padre{
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+}
+
+.task {
+    position: relative;
+    color: #2e2e2f;
+   
+    background-color: #128C7E;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+    margin-bottom: 1rem;
+    border: 3px dashed transparent;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px  10px  rgba(255, 255, 255, 0.479);
+  }
+  
+  .user {
+    background: transparent;
+    border: 0;
+    color: #ECE5DD;
+    font-size: 17px;
+  }
+  
+  .task p {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px;
+
+  }
+  
+  .tag {
+    border-radius: 100px;
+    padding: 4px 13px;
+    
+    color: #ffffff;
+    background-color: #1389eb;
+  }
+  
+  .tags {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .stats {
+    position: relative;
+    width: 100%;
+    color: #ffffff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .stats div {
+    margin-right: 1rem;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .stats svg {
+    margin-right: 5px;
+    height: 100%;
+    stroke: #9fa4aa;
+  }
+  
+  .viewer span {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(28, 117, 219);
+    margin-right: -10px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 2px;
+  }
+  
+  .viewer span svg {
+    stroke: #fff;
+  }
+  
+  
+  
+  /* Estilos para la modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-contenido {
+  background-color: #128C7E;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius:25px;
+  width: 80%;
+  text-align: center;
+}
+
+.cerrar {
+  color: red;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Estilos para el formulario */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  color:white;
+}
+
+#titulo,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 80px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+#boton-crear-post{
+  position: fixed;
+  right: 60px;
+  bottom: 60px;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  z-index: 100;
+  background: #25D366;
+  border: none;
+  color:white;
+  font-size: 20px;
+}
